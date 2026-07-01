@@ -51,8 +51,8 @@ INFO_PENYAKIT = {
             "Mengaplikasikan fungisida yang efektif baik bekerja dari luar (kontak) seperti Acylalamine, Oxadityl, atau Propamocarb serta fungisida yang bekerja dari dalam (sistemik) tanaman seperti Clorotaloni secara bergiliran (Balai Pengkajian Teknologi Pertanian Kalimantan Selatan, 2010).",
             "Menggunakan pelindung atau naungan hujan untuk mengurangi serangan penyakit (Alviani Munif, 2017).",
             "Segera cabut daun yang terinfeksi atau musnahkan pohon tomat apabila serangan sudah lebih dari 60% (Nurhanipah & Supriatna, 2025).",
-            "Menggunakan jamur endofitik Trichoderma spp. pada media tanam untuk menghambat pertumbuhan Phytophthora infestans dan mengurangi intensitas penyakit (Wattimury et al., 2021)."
-            "Hindari penyiraman dari atas, gunakan drip irrigation.",
+            "Menggunakan jamur endofitik Trichoderma spp. pada media tanam untuk menghambat pertumbuhan Phytophthora infestans dan mengurangi intensitas penyakit (Wattimury et al., 2021).",
+            "Hindari penyiraman dari atas, gunakan drip irrigation."
         ],
 
         "rekomendasi": [
