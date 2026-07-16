@@ -230,7 +230,7 @@ if menu == "Beranda":
     st.subheader("Cara Menggunakan Website")
     st.markdown("1. Klik halaman klasifikasi pada sidebar.")
     st.markdown("2. Unggah gambar daun yang ingin diklasifikasikan secara jelas.")
-    st.markdown("3. Klik tombol klasifikasi untuk melihat hasil beserta cara penanganan dan REKOMENDASI.")
+    st.markdown("3. Klik tombol klasifikasi untuk melihat hasil klasifikasi model beserta cara penanganan dan rekomendasi.")
 
 # ── Halaman Klasifikasi ────────────────────────────────────────────────────────
 
