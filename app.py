@@ -174,8 +174,7 @@ if menu == "Beranda":
         unsafe_allow_html=True,
     )
     st.header("Halo!")
-    st.markdown("Tomat adalah salah satu tanaman yang paling banyak dikonsumsi dan dibudidayakan di Indonesia. Penyakit pada daun tomat sering kali tidak disadari sejak awal dan dapat menyebar dengan cepat hingga merusak tanaman. Website ini dapat digunakan untuk membantu mengenali 5 kondisi daun tomat beserta informasi karakteristik, penanganan, dan saran perawatannya.")
-
+    st.markdown("Tomat adalah salah satu tanaman yang paling banyak dikonsumsi dan dibudidayakan di Indonesia. Penyakit pada daun tomat sering kali tidak disadari sejak awal dan dapat menyebar dengan cepat hingga merusak tanaman. Website ini dapat digunakan untuk membantu mengenali kondisi daun tomat beserta informasi karakteristik, penanganan, dan saran perawatannya.")
     img = Image.open("Tomat Header.jpg")
     st.image(img, use_container_width=True)
     st.divider()
