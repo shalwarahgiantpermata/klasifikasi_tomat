@@ -185,7 +185,7 @@ if menu == "Beranda":
     penyakit_list = [
     {
         "nama": "Daun Sehat",
-        "gambar": "gambar/sehat.JPG",
+        "gambar": "gambar/Sehat.jpg",
         "deskripsi": "Daun tomat berada dalam kondisi sehat tanpa karakteristik penyakit sehingga pertumbuhan tanaman dapat berlangsung secara normal."
     },
     {
@@ -195,7 +195,7 @@ if menu == "Beranda":
     },
     {
         "nama": "Virus Mosaik",
-        "gambar": "gambar/mosaic.jpg",
+        "gambar": "gambar/Mosaic.jpg",
         "deskripsi": "Penyakit akibat infeksi Tomato Mosaic Virus (ToMV) yang menyebabkan perubahan warna daun menjadi belang seperti pola mosaik."
     },
     {
@@ -205,7 +205,7 @@ if menu == "Beranda":
     },
     {
         "nama": "Virus Daun Kuning Keriting",
-        "gambar": "gambar/laf curl.jpg",
+        "gambar": "gambar/YLCV.jpg",
         "deskripsi": "Penyakit akibat infeksi Tomato Yellow Leaf Curl Virus (TYLCV) yang menyebabkan daun menguning, menggulung, dan pertumbuhan tanaman terhambat."
     },
 ]
