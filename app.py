@@ -25,8 +25,8 @@ MODEL_PATH = r"klasifikasitomat.h5"
 INFO_PENYAKIT = {
     "Tomato Healthy": {
         "deskripsi": "Daun tomat dalam kondisi sehat.",
-        "karakteristik": "Daun berwarna hijau tua atau muda cerah, permukaan daun halus, daunnya kuat.",
-        "rekomendasi": [
+        "gejala": "Daun berwarna hijau tua atau muda cerah, permukaan daun halus, daunnya kuat.",
+        "pencegahan": [
             "Siram tanaman tomat secara rutin dan teratur.",
             "Memangkas daun yang sudah tua secara berkala.",
             "Tidak menyentuh tanaman sehat setelah menyentuh tanaman terinfeksi.",
@@ -34,18 +34,15 @@ INFO_PENYAKIT = {
     },
     "Tomato Late Blight": {
         "deskripsi": (
-            "Penyakit Late Blight adalah penyakit yang disebabkan oleh cendawan Phytophthora infestans. "
-            "Penyakit ini berkembang pada kondisi yang basah serta dingin dan biasanya terjadi di dataran tinggi (Setiawati et al., 2001). "
-            "Sporanya berkembang cepat saat temperatur sedang (10-25° C) "
-            "dan saat kelembabannya lebih besar dari 75% selama 2 hari atau lebih, terutama jika daun basah dan berembun. "
-            "Sporangia yang terinfeksi dapat menyebar melalui angin dan percikan air (Alviani Munif, 2017)."
+            "Penyakit Late Blight disebabkan oleh cendawan Phytophthora infestans dan berkembang pada kondisi yang basah serta dingin dan umumnya terjadi di daerah dataran tinggi (Setiawati et al., 2001). "
+            "Selain itu, spora Phytophthora infestans berkembang cepat pada suhu 10-25° C dengan kelembapan lebih dari 75% selama 2 hari atau lebih, terutama jika daun basah dan berembun. "
+            "Sporangia yang terinfeksi dapat menyebar melalui angin maupun percikan air (Alviani Munif, 2017)."
         ),
-        "karakteristik": (
+        "gejala": (
             "Bercak cokelat kehitaman tidak beraturan dengan kondisi daun tampak basah, lunak, dan berwarna kehitam-hitaman. "
             "Dalam kondisi udara lembab, bercak-bercak akan bertambah besar dan bagian yang terserang akan membusuk serta mengeluarkan bau yang tidak sedap. "
             "Tumbuh bulu atau spora putih di bagian bawah daun. "
-            "Dalam kondisi udara basah penyakit busuk daun dapat menyebar sangat cepat ke seluruh "
-            "dedaunan yang membuat daun layu serta mati dengan cepat."
+            "Dalam kondisi udara basah penyakit busuk daun dapat menyebar sangat cepat ke seluruh dedaunan yang membuat daun layu serta mati dengan cepat."
         ),
         "penanganan": [
             "Mengaplikasikan fungisida yang efektif baik bekerja dari luar (kontak) seperti Acylalamine, Oxadityl, atau Propamocarb serta fungisida yang bekerja dari dalam (sistemik) tanaman seperti Clorotaloni secara bergiliran (Balai Pengkajian Teknologi Pertanian Kalimantan Selatan, 2010).",
@@ -55,7 +52,7 @@ INFO_PENYAKIT = {
             "Hindari penyiraman dari atas, gunakan drip irrigation."
         ],
 
-        "rekomendasi": [
+        "pencegahan": [
             "Tanam varietas tanaman yang tahan terhadap penyakit busuk daun.",
             "Membersihkan tanaman liar atau sisa-sisa tanaman sebelumnya.",
             "Kurangi kelembaban kebun dengan meningkatkan jarak tanam (Gevens & Wilbur, 2015).",
@@ -68,36 +65,34 @@ INFO_PENYAKIT = {
     },
     "Tomato Mosaic Virus": {
         "deskripsi": (
-            "Tomato Mosaic Virus disebabkan oleh Tomato Mocaic Virus (ToMV) dari genus tobamovirus dan famili Virgaviridae "
-            "yang penyebarannya melalui kontak dengan tanaman yang terinfeksi baik pada tangan, pakaian, maupun alat pertanian."
+            "Tomato Mosaic Virus disebabkan oleh Tomato Mocaic Virus (ToMV) dari genus tobamovirus dan famili Virgaviridae yang penyebarannya melalui kontak dengan tanaman yang terinfeksi baik pada tangan, pakaian, maupun alat pertanian (Wati et al., 2021). "
+            "ToMV dapat bertahan dalam benih yang terinfeksi hingga 10 tahun serta tetap bertahan pada sisa tanaman maupun permukaan benda dalam waktu yang lama sehingga berpotensi menjadi sumber infeksi baru (Panno et al., 2021)."
         ),
-        "karakteristik": (
+        "gejala": (
             "Perubahan warna pada permukaan daun berupa kombinasi hijau terang dan gelap yang tidak merata seperti pola mozaik "
-            "disertai klorosis berwarna kuning."
+            "disertai klorosis berwarna kuning (Majid & Ariatmanto, 2025)."
         ),
         "penanganan": [
-            "Mencabut dan memusnahkan tanaman yang terinfeksi.",
-            "Menyemprotkan air yang mengandung molase 1% untuk menurunkan laju perkembangan dan menekan gejala penyakit embun tepung (Istifadah & Maharani, 2023).",
-            "Segera cabut dan buang bagian daun yang terinfeksi.",
-            "Menjaga kelembapan dan meningkatkan sirkulasi udara di sekitar tanaman.",
+            "Mencabut dan memusnahkan tanaman yang terinfeksi (Wati et al., 2021).",
+            "Musnahkan dan tidak mengompos sisa tanaman yang terinfeksi."
+            "Sterilisasi alat pertanian dan mencuci tangan setelah menangani tanaman yang terinfeksi (Schuh et al., 2021)."
+
         ],
-        "rekomendasi": [
-            "Menyiram tanaman dan memberikan nutrisi secara rutin dan cukup",
-            "Tidak menanam tanaman terlalu rapat.",
-            "Menanam varietas tomat yang tahan terhadap jamur.",
+        "pencegahan": [
+            "Menggunakan varietas tomat yang tahan terhadap Tomato Mosaic Virus (Dombrovsky & Smith, 2017).",
+            "Menggunakan bibit yang bersertifikat bebas patogen.",
+            "Sterilisasi alat pertanian sebelum dan sesudah digunakan.",
+            "Merotasi tanaman dan membersihkan sisa-sisa tanaman maupun gulma yang dapat menjadi inang virus secara rutin (Panno et al., 2021)."
         ],
     },
     "Tomato Septoria Leaf Spot": {
         "deskripsi": (
-            "Septoria Leaf Spot adalah penyakit yang disebabkan oleh jamur Septoria Lycopersici Speg "
-            "yang bertahan di sisa tanaman dan tanah. "
-            "Sporanya menyebar melalui percikan air hujan/irigasi. "
-            "Penyakit ini dapat berkembang cepat pada kelembaban tinggi dengan temperatur +- 20°C dalam waktu yang lama (Agus, 2021)."
+            "Septoria Leaf Spot adalah penyakit yang disebabkan oleh jamur Septoria Lycopersici Speg yang bertahan pada sisa tanaman dan tanah."
+            "Sporanya menyebar melalui percikan air hujan/irigasi dan dapat berkembang cepat pada kelembaban tinggi dengan temperatur +- 20°C dalam waktu yang lama (Agus, 2021)."
         ),
-        "karakteristik": (
-            "Bintik-bintik gelap pada daun, tepi bintik berwarna cokelat atau abu-abu dengan "
-            "tepi yang lebih gelap. Menyerang bagian bawah daun terlebih dahulu kemudian "
-            "perlahan menyebar ke daun bagian atas, lalu daun menguning dan rontok."
+        "gejala": (
+            "Bintik-bintik gelap pada daun, tepi bintik berwarna cokelat atau abu-abu dengan tepi yang lebih gelap. "
+            "Jamur ini menyerang bagian bawah daun terlebih dahulu kemudian perlahan menyebar ke daun bagian atas, lalu daun menguning dan rontok."
         ),
         "penanganan": [
             "Menyemprotkan fungisida seperti Zineb dan Maneb.",
@@ -110,7 +105,7 @@ INFO_PENYAKIT = {
             "Bersihkan sisa tanaman pada lahan dari musim sebelumnya.",
             "Gunakan mulsa untuk mencegah spora bercak daun septoria di tanah mencapai daun.",
         ],
-        "rekomendasi": [
+        "pencegahan": [
             "Rotasi tanaman dengan menanam tanaman lain yang berbeda family (bukan tanaman Solanaceae).",
             "Menanam varietas tomat yang resisten.",
             "Sanitasi kebun.",
@@ -124,7 +119,7 @@ INFO_PENYAKIT = {
             "menular ke sekitar pohon tomat lainnya. Hal ini menyebabkan penyebaran virus kuning "
             "dianggap sebagai potensi ancaman yang cukup serius terhadap budidaya tomat (Wati et al., 2021)."
         ),
-        "karakteristik": (
+        "gejala": (
             "Daun muda menggulung ke atas dan menguning, "
             "bentuk daun mengkerut atau keriting, "
             "ukuran daun mengecil, "
@@ -136,7 +131,7 @@ INFO_PENYAKIT = {
             "Gunakan plastik yang memantulkan cahaya / mulsa jerami untuk melindungi tanaman tomat dari kutu kebul.",
             "Semprotkan pestisida sistemik pada tanaman tomat sehat dan sakit untuk mengendalikan penyebaran kutu kebul (Alviani Munif, 2017)."
         ],
-        "rekomendasi": [
+        "pencegahan": [
             "Menggunakan varietas tanaman tomat yang tahan terhadap serangga kutu kebul dan virus gemini.",
             "Menjaga kondisi lingkungan tanaman tetap bersih dan jauh dari tanaman inang atau gulma agar terhindar dari hama (Wati et al., 2021).",
             "Membuang sisa tanaman tomat sehat dan sakit setelah panen berakhir dan membakar sisa tanaman (Alviani Munif, 2017)."
@@ -186,7 +181,7 @@ if menu == "Beranda":
         unsafe_allow_html=True,
     )
     st.header("Halo!")
-    st.markdown("Tomat adalah salah satu tanaman yang paling banyak dikonsumsi dan dibudidayakan di Indonesia. Penyakit pada daun tomat sering kali tidak disadari sejak awal dan dapat menyebar dengan cepat hingga merusak tanaman. Website ini dapat digunakan untuk membantu mengenali 5 kondisi daun tomat beserta informasi karakteristik, penanganan, dan saran perawatannya.")
+    st.markdown("Tomat adalah salah satu tanaman yang paling banyak dikonsumsi dan dibudidayakan di Indonesia. Penyakit pada daun tomat sering kali tidak disadari sejak awal dan dapat menyebar dengan cepat hingga merusak tanaman. Website ini dapat digunakan untuk membantu mengenali 5 kondisi daun tomat beserta informasi gejala, penanganan, dan saran perawatannya.")
 
     img = Image.open("Tomat Header.jpg")
     st.image(img, use_container_width=True)
@@ -218,7 +213,7 @@ if menu == "Beranda":
     st.subheader("Cara Menggunakan Website")
     st.markdown("1. Klik halaman klasifikasi pada sidebar.")
     st.markdown("2. Unggah gambar daun yang ingin diklasifikasikan secara jelas.")
-    st.markdown("3. Klik tombol klasifikasi untuk melihat hasil beserta cara penanganan dan rekomendasi.")
+    st.markdown("3. Klik tombol klasifikasi untuk melihat hasil beserta cara penanganan dan pencegahan.")
 
 # ── Halaman Klasifikasi ────────────────────────────────────────────────────────
 
@@ -270,14 +265,14 @@ elif menu == "Klasifikasi":
 
             st.divider()
 
-            st.markdown("**🔍 Karakteristik**")
-            st.info(info["karakteristik"])
+            st.markdown("**🔍 gejala**")
+            st.info(info["gejala"])
             st.divider()
 
             if label == "Tomato Healthy":
-                st.markdown("**🛡️ Rekomendasi**")
+                st.markdown("**🛡️ pencegahan**")
                 with st.container(border=True):
-                    for item in info["rekomendasi"]:
+                    for item in info["pencegahan"]:
                         st.markdown(f"- {item}")
             else:
                 col_h, col_r = st.columns(2)
@@ -287,9 +282,9 @@ elif menu == "Klasifikasi":
                         for i, step in enumerate(info["penanganan"], 1):
                             st.markdown(f"**{i}.** {step}")
                 with col_r:
-                    st.markdown("**🛡️ Rekomendasi**")
+                    st.markdown("**🛡️ pencegahan**")
                     with st.container(border=True):
-                        for item in info["rekomendasi"]:
+                        for item in info["pencegahan"]:
                             st.markdown(f"- {item}")
 
 # ── Halaman Tentang ────────────────────────────────────────────────────────────
