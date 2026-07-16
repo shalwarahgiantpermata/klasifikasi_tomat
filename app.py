@@ -204,7 +204,7 @@ if menu == "Beranda":
         "deskripsi": "Penyakit yang disebabkan oleh jamur *Septoria lycopersici* dan ditandai dengan munculnya bercak kecil pada daun."
     },
     {
-        "nama": "Virus Daun Kuning Keriting",
+        "nama": "Virus Kuning Keriting",
         "gambar": "gambar/YLCV.jpg",
         "deskripsi": "Penyakit akibat infeksi Tomato Yellow Leaf Curl Virus (TYLCV) yang menyebabkan daun menguning, menggulung, dan pertumbuhan tanaman terhambat."
     },
@@ -354,8 +354,8 @@ elif menu == "Tentang":
     st.markdown(
         """
         - Membantu petani maupun masyarakat dalam mengenali kemungkinan penyakit pada daun tomat.
-        - Menjadi media edukasi menegnai penyakit yang dapat menyerang daun tanaman tomat.
         - Menyajikan hasil klasifikasi sebagai referensi awal mengenai kondisi daun tomat dan bukan sebagai pengganti diagnosa ahli.
+        - Menjadi media edukasi mengenai penyakit yang dapat menyerang daun tanaman tomat.
         """
     )
 
